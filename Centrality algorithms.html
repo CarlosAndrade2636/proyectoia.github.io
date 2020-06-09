@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Centrality algorithms</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">UPS</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Inicio</a></li>
+        <li><a href="Centrality algorithms.html">Centrality algorithms</a></li>
+        <li><a href="Community detection algorithms.html">Community detection algorithms</a></li>
+        <li><a href="Similarity algorithms.html">Similarity algorithms</a></li>
+        <li><a href="Link Prediction algorithms.html">Link Prediction algorithms</a></li>
+        <li><a href="Path finding algorithms.html">Path finding algorithms</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Registrar</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container" >
+    </a>
+    <h2><strong><center>5.2 algoritmos de centralidad </center></strong></h2>
+    <p class="bg-danger">
+      Determinan la importancia de distintos nodos mediante la medición de la afluencia transitiva o la conectividad 
+      que posee uno o mas nodos del grafo, evaluando esquemas de puntuaciones. Los nodos con mayor puntuación representan
+       los vértices con mayores conexiones.
+    </p>
+    <h2><strong><center>Page Rank  </center></strong></h2>
+    <div class=" col-12" align="center"><img src="img/google-pagerank.png" width="500"  height="500"></div>
+    <p class="bg-danger">
+      PageRank proviene de Larry Page que desarrolló este algoritmo en la Universidad de Standford junto 
+      con Sergei Brin y lo patentó en 1997. El Page Rank es un algoritmo implementado por Google para posicionar
+       mejor a las diferentes paginas dentro de su buscador dependiendo del numero de enlaces que tenga la página, 
+       los usos para este tipo de algoritmo son muy altos entre ellos poder determinar la importancia de diferentes 
+       sitios o lugares turísticos dependiendo del número de conexiones que tengan estos.
+      
+    </p>
+
+    <h2><strong><center>calculo Page Rank  </center></strong></h2>
+    <div class=" col-12" align="center"><img src="img/pageRank.jpg" width="500"  height="500"></div>
+  
+
+  
+    <h2><strong><center>¿Porqué fue importante?  </center></strong></h2>
+    <p class="bg-danger">
+      PageRank no fue el primer algoritmo en explorar la categorización de nodos en redes con base en su importancia.
+           Sin embargo, Google fue de los primeros buscadores en utilizar un algoritmo de este tipo en su sistema de búsqueda. 
+           Hasta antes de eso, los buscadores utilizaban conteo de palabras clave para decidir qué sitios web son los más relevantes 
+           para una busqueda; es decir que si una persona busca “Pokemón”, los resultados serían sitios web con la palabra “Pokemón” 
+           escrita muchas veces. Esta métrica para ordenar los sitios web es bastante mala, dado que un sitio de baja calidad 
+           puede estar lleno de la palabra “Pokemón”, y parecer relevante; pero no tener ninguna información relevante o 
+           interesante más allá de la palabra “Pokemón”. Este sitio sería un resultado inúti
+      
+    </p>
+
+
+    <h2><strong><center>Uso alternativo </center></strong></h2>
+    <p class="bg-danger">
+      A mediados del siglo pasado, se usaba un algoritmo similar para los estudios relacionados con la sociometría. 
+      En esa época, este algoritmo servía para calcular el estatus de un individuo en la sociedad. Más adelante, 
+      la Washington State University se percató de que este algoritmo podía también ser de gran utilidad para encontrar 
+      moléculas de agua entre productos químicos venenosos. Por otra parte, la empresa Moz creó el MozRank que determina
+       la popularidad de los enlaces. Y, por último, el OPR de [Ryte] analiza la popularidad de un sitio web.
+      
+    </p>
+
+   
+    <div class="callout">
+      <div class="callout-header">Bienvenido</div>
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+      <div class="callout-container">
+        <p>
+          </p>
+
+      </div>
+    </div>
+  </div>
+  </body>
+
+</html>

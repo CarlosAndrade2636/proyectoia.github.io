@@ -2,7 +2,7 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>plantilla pagina web html</title>
+    <title>Proyecto SE IA</title>
     <link rel="stylesheet" type="text/css" href="estilo.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -13,12 +13,15 @@
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Eduardo Santos PRO</a>
+          <a class="navbar-brand" href="#">UPS</a>
         </div>
         <ul class="nav navbar-nav">
           <li class="active"><a href="index.html">Inicio</a></li>
-          <li><a href="about.html">Sobre mí</a></li>
-          <li><a href="contact.html">Contacto</a></li>
+          <li><a href="Centrality algorithms.html">Centrality algorithms</a></li>
+          <li><a href="Community detection algorithms.html">Community detection algorithms</a></li>
+          <li><a href="Similarity algorithms.html">Similarity algorithms</a></li>
+          <li><a href="Link Prediction algorithms.html">Link Prediction algorithms</a></li>
+          <li><a href="Path finding algorithms.html">Path finding algorithms</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#"><span class="glyphicon glyphicon-user"></span> Registrar</a></li>
@@ -26,52 +29,84 @@
         </ul>
       </div>
     </nav>
-    <div class="container">
-      <h1><strong>Plantilla web, en html</strong></h1>
+    <div class="container" >
+       <h1><strong  >PROYECTO DE SISTEMAS EXPERTOS Y INTELIGENCIA ARTIFICIAL</strong></h1>
       <div class="row">
         <div class="col-md-6">
-          <h2>Información</h2>
-          <p>Luego de tanto recorrido y progreso... ya no eres un principiante; ahora eres un PRO en html y CSS.</p>
-          <br>
-          <p class="gap_below">purus nec elementum. Praesent vestibulum placerat risus ut vulputate. Donec ante sapien, vehicula ac consequat eu, tincidunt porttitor mauris. Proin venenatis pharetra facilisis. Pellentesque a felis dictum, sagittis est ut, porta libero. Fusce iaculis elit nec posuere egestas. Nam pharetra blandit quam, in interdum metus porttitor dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin commodo sem nec condimentum tincidunt. Etiam pretium lorem vel venenatis vestibulum.</p>
+          <h2>Bases de datos orientadas a grafos</h2>
+          <p>El mundo real, donde todo está ricamente interconectado, se puede representar a través de grafos. La mejor y la forma más
+             natural de entender cualquier sistema que nos rodea y de representar sus conexiones, es a través de los grafos: los elementos 
+             del sistema se convierten en círculos (nodos, entidades o vértices) y las relaciones entre los objetos se convierten en 
+             líneas (aristas). <br>
+          <p class="gap_below">
+            Los grafos, dentro del contexto de software,  representan las entidades como nodos y las aristas
+          por la forma como estos nodos se pueden encontrar  relacionados, ya sean entre sí o no.
+          <div class=" col-12" align="center"><img src="img/grafo.jpg" width="500"  height="500"></div>
+          </p>
         </div>
         <div class="col-md-6 relleno">
-          <h3 class="texto1">Agregando Contenido</h3>
-            <p class="indent gap_below texto1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In fringilla vel libero
-              vitae pharetra. Integer orci est, blandit ac dictum sit amet, tempus quis nunc.
-              In quis nunc sagittis, finibus risus pulvinar, luctus urna. Quisque tristique tellus
-              non iaculis hendrerit. Praesent lobortis efficitur erat, in fringilla dolor
-              condimentum nec. Nulla fringilla sagittis purus nec elementum. Praesent vestibulum
-              placerat risus ut vulputate. Donec ante sapien, vehicula ac consequat eu, tincidunt
-              porttitor mauris. Proin venenatis pharetra facilisis. Pellentesque a felis dictum,
-              sagittis est ut, porta libero. Fusce iaculis elit nec posuere egestas. Nam pharetra
-              blandit quam, in interdum metus porttitor dictum. Class aptent taciti sociosqu ad
-              litora torquent per conubia nostra, per inceptos himenaeos. Proin commodo sem nec
-              condimentum tincidunt. Etiam pretium lorem vel venenatis vestibulum.
+          <h3 class="texto1">imagen de base de datos orientada a grafos</h3>
+          <div class=" col-12" align="center"><img src="img/neo4j.jfif" width="500"  height="200"></div>
+            <p class="indent gap_below texto1">Neo4j usa grafos para representar datos y las relaciones entre ellos.
+               Un grafo se define como cualquier representación gráfica formada por vértices 
+               (se ilustran mediante círculos) y aristas (se muestran mediante líneas de intersección).
+                Dentro de estas representaciones gráficas, tenemos varios tipos de grafos:
+               
             </p>
+            <h4 class="texto1">- Grafos no dirigidos:</h4> 
+            <p class="indent gap_below texto1"> los nodos y las relaciones son intercambiables, su relación se puede interpretar en cualquier sentido.</p>
+            <h4 class="texto1"> - Grafos dirigidos: </h4> 
+            <p class="indent gap_below texto1"> los nodos y la relaciones no son bidireccionales por defecto.</p>
+            <h4 class="texto1"> - Grafos con peso: </h4> 
+            <p class="indent gap_below texto1"> en este tipo de gráficas las relaciones entre nodos tienen algún tipo de valoración numérica. Eso permite luego hacer operaciones.</p>
+            <h4 class="texto1"> - Grafos con etiquetas:</h4> 
+            <p class="indent gap_below texto1"> estos grafos llevan incorporadas etiquetas que pueden definir los distintos vértices y también las relaciones entre ellos. </p> 
+            <h4 class="texto1">- Grafos de propiedad: </h4>   
+            <p class="indent gap_below texto1"> es un grafo con peso, con etiquetas y donde podemos asignar propiedades tanto a nodos como relaciones  </p> 
         </div>
       </div>
       <div class="row">
         <div class="col-md-6 relleno2">
-          <h2 class="texto1">Información</h2>
-          <p class="texto1">Luego de tanto recorrido y progreso... ya no eres un principiante; ahora eres un PRO en html y CSS.</p>
+          <h2 class="texto1">Python</h2>
+          <p class="texto1">Python es un lenguaje de scripting independiente de plataforma y orientado a objetos,
+             preparado para realizar cualquier tipo de programa, desde aplicaciones Windows a servidores de red o incluso,
+              páginas web. Es un lenguaje interpretado, lo que significa que no se necesita compilar el código fuente para 
+              poder ejecutarlo, lo que ofrece ventajas como la rapidez de desarrollo e inconvenientes como una menor velocidad.</p>
           <br>
-          <p class="texto1">purus nec elementum. Praesent vestibulum placerat risus ut vulputate. Donec ante sapien, vehicula ac consequat eu, tincidunt porttitor mauris. Proin venenatis pharetra facilisis. Pellentesque a felis dictum, sagittis est ut, porta libero. Fusce iaculis elit nec posuere egestas. Nam pharetra blandit quam, in interdum metus porttitor dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin commodo sem nec condimentum tincidunt. Etiam pretium lorem vel venenatis vestibulum.</p>
+          <p class="texto1">
+            De dónde viene Python
+
+          El creador del lenguaje es un europeo llamado Guido Van Rossum. Hace ya más de una década que diseño Python,
+           ayudado y motivado por su experiencia en la creación de otro lenguaje llamado ABC. 
+           El objetivo de Guido era cubrir la necesidad de un lenguaje orientado a objetos de sencillo uso que sirviese para
+            tratar diversas tareas dentro de la programación que habitualmente se hacía en Unix usando C.
+            <div class=" col-12" align="center"><img src="img/python1.jfif" width="500"  height="300"></div>
+          </p>
         </div>
         <div class="col-md-6">
-          <h3>Agregando Contenido</h3>
-            <p class="indent gap_below">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In fringilla vel libero
-              vitae pharetra. Integer orci est, blandit ac dictum sit amet, tempus quis nunc.
-              In quis nunc sagittis, finibus risus pulvinar, luctus urna. Quisque tristique tellus
-              non iaculis hendrerit. Praesent lobortis efficitur erat, in fringilla dolor
-              condimentum nec. Nulla fringilla sagittis purus nec elementum. Praesent vestibulum
-              placerat risus ut vulputate. Donec ante sapien, vehicula ac consequat eu, tincidunt
-              porttitor mauris. Proin venenatis pharetra facilisis. Pellentesque a felis dictum,
-              sagittis est ut, porta libero. Fusce iaculis elit nec posuere egestas. Nam pharetra
-              blandit quam, in interdum metus porttitor dictum. Class aptent taciti sociosqu ad
-              litora torquent per conubia nostra, per inceptos himenaeos. Proin commodo sem nec
-              condimentum tincidunt. Etiam pretium lorem vel venenatis vestibulum.
-            </p>
+          <h1>Tabla de contenido</h1>
+           
+          <h2> <a href="">5.2. Centrality algorithms</a> </h2>
+
+          <h3> <a href=""> Page Rank</a></h3>
+
+          <h2> <a href=""> 5.3. Community detection algorithms</a> </h2>
+
+          <h3> <a href="">  Strongly Connected Components</a></h3>
+
+          <h2>  <a href="">  5.4. Similarity algorithms</a> </h2>
+
+          <h3> <a href="">   Jaccard Similarity</a></h3>
+
+          <h2>  <a href="">  5.6. Link Prediction algorithms</a> </h2>
+
+          <h3> <a href="">    Resource Allocation</a></h3>
+
+          <h2> <a href="">  5.5. Path finding algorithms</a> </h2>
+
+          <h3> <a href="">   Single Source Shortest Path</a></h3>
+         
+          </div>
         </div>
       </div>
     </div>

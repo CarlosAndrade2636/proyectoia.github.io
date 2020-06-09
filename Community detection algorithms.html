@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Centrality algorithms</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">UPS</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Inicio</a></li>
+        <li><a href="Centrality algorithms.html">Centrality algorithms</a></li>
+        <li><a href="Community detection algorithms.html">Community detection algorithms</a></li>
+        <li><a href="Similarity algorithms.html">Similarity algorithms</a></li>
+        <li><a href="Link Prediction algorithms.html">Link Prediction algorithms</a></li>
+        <li><a href="Path finding algorithms.html">Path finding algorithms</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Registrar</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container" >
+    </a>
+    <h2><strong><center>5.2 Algoritmos de detección de la comunidad </center></strong></h2>
+    <p class="bg-danger">
+      Los algoritmos de detección de comunidad se utilizan para evaluar cómo se agrupan o particionan los grupos de nodos, 
+      así como su tendencia a fortalecerse o separarse.  
+    </p>
+    <h2><strong><center>Componentes fuertemente conectados  </center></strong></h2>
+    <div class=" col-12" align="center"><img src="img/fuerteConectado.png" width="500"  height="500"></div>
+    <p class="bg-danger">
+      los algoritmos de componentes fuertemente conectados  permiten entender el comportamiento de los nodos 
+      que conforman un grafo dirigido y poseen un tipo específico de conectividad. Para que se considere un componente
+       fuertemente conectado o conexo este grafo debe poseer nodos que estén totalmente conectados entre sí. 
+       Dentro de un grafo dirigido es posible que no exista una conexión fuerte, aunque es posible que exista una o varias vinculaciones. 
+       Se busca con estos algoritmos determinar los componentes fuertemente conectados de mayor tamaño.
+    </p>
+
+    <h2><strong><center>Casos de uso: cuándo usar el algoritmo de Componentes fuertemente conectados  </center></strong></h2>
+    <p class="bg-danger"> 
+   - Puede usarse para encontrar el conjunto de empresas en las que cada miembro posee acciones directas y / o indirectas en todos los demás miembros.</br>
+   - puede utilizar para calcular la conectividad de diferentes configuraciones de red al medir el rendimiento de enrutamiento en redes inalámbricas de múltiples tiendas. </br>
+   - ueden usar para encontrar dichos grupos y sugerir las páginas o juegos que comúnmente les gustan a las personas del grupo que aún no les han gustado esas páginas o juegos.</br>
+  </p>
+  
+    <h2><strong><center> Historia y explicacion  </center></strong></h2>
+    <p class="bg-danger">
+     SCC es uno de los primeros algoritmos de gráficos, y Tarjan describió el primer algoritmo de tiempo lineal en 1972.
+      La descomposición de un gráfico dirigido en sus componentes fuertemente conectados es una aplicación clásica del 
+      algoritmo de búsqueda de profundidad primero.
+      
+    </p>
+
+
+    <h2><strong><center>Uso alternativo </center></strong></h2>
+    <p class="bg-danger">
+      A mediados del siglo pasado, se usaba un algoritmo similar para los estudios relacionados con la sociometría. 
+      En esa época, este algoritmo servía para calcular el estatus de un individuo en la sociedad. Más adelante, 
+      la Washington State University se percató de que este algoritmo podía también ser de gran utilidad para encontrar 
+      moléculas de agua entre productos químicos venenosos. Por otra parte, la empresa Moz creó el MozRank que determina
+       la popularidad de los enlaces. Y, por último, el OPR de [Ryte] analiza la popularidad de un sitio web.
+      
+    </p>
+
+   
+    <div class="callout">
+      <div class="callout-header">Bienvenido</div>
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+      <div class="callout-container">
+        <p>
+          </p>
+
+      </div>
+    </div>
+  </div>
+  </body>
+
+</html>
