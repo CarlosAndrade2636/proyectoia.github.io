@@ -18,7 +18,7 @@
       </div>
       <ul class="nav navbar-nav">
         <li class="active"><a href="index.html">Inicio</a></li>
-        <li><a href="Centrality algorithms.html">Community detection algorithms</a></li>
+        <li><a href="Centrality algorithms.html">Centrality algorithms</a></li>
         <li><a href="Community detection algorithms.html">Community detection algorithms</a></li>
         <li><a href="Similarity algorithms.html">Similarity algorithms</a></li>
         <li><a href="Link Prediction algorithms.html">Link Prediction algorithms</a></li>
@@ -32,30 +32,32 @@
   </nav>
   <div class="container" >
     </a>
-    <h2><strong><center>5.3. Community detection algorithms </center></strong></h2>
+    <h2><strong><center>  5.6. Link Prediction algorithms</center></strong></h2>
     <p class="bg-danger">
-      Los algoritmos de detección de comunidad se utilizan para evaluar cómo se agrupan o particionan los grupos de nodos, 
-      así como su tendencia a fortalecerse o separarse.  
+      Los algoritmos de predicción de enlaces ayudan a determinar la cercanía de un par de nodos. <br>
+      Parten en su mayoría de la hipótesis de que si un nodo posee varías conexiones, puede ser 
+      mayor la probabilidad de que este reciba enlaces adicionales. Estos algoritmos son de uso 
+      fundamental en el análisis de redes sociales y otros ámbitos tecnológicos. 
     </p>
-    <h2><strong><center>Componentes fuertemente conectados  </center></strong></h2>
-    <div class=" col-12" align="center"><img src="img/fuerteConectado.png" width="500"  height="500"></div>
-    <p class="bg-danger">
-      los algoritmos de componentes fuertemente conectados  permiten entender el comportamiento de los nodos 
-      que conforman un grafo dirigido y poseen un tipo específico de conectividad. Para que se considere un componente
-       fuertemente conectado o conexo este grafo debe poseer nodos que estén totalmente conectados entre sí. 
-       Dentro de un grafo dirigido es posible que no exista una conexión fuerte, aunque es posible que exista una o varias vinculaciones. 
-       Se busca con estos algoritmos determinar los componentes fuertemente conectados de mayor tamaño.
-    </p>
-
-    <h2><strong><center>Casos de uso </center></strong></h2>
+    <h2><strong><center> Asignación de recursos </center></strong></h2>
+    <div class=" col-12" align="center"><img src="img/asignacion.jfif" width="400"  height="200"></div>
+    
+    <h2><strong><center>¿Cómo funciona?</center></strong></h2>
     <p class="bg-danger"> 
-      Entonces podríamos usar la similitud calculada como parte de una consulta de recomendación. 
-      Por ejemplo, puede usar el algoritmo de similitud Jaccard para mostrar los productos que fueron comprados por clientes similares, 
-      en términos de productos anteriores comprados.</p>
-  <div class=" col-12" align="center"><img src="img/fuerteConectados.png" width="500"  height="500"></div>
- 
+      Este algoritmo de asignación de recursos nos ofrece una medida con la que podemos estimar con precisión 
+      la cercanía entre vértices pertenecientes a un grafo, tomando como principal referencia la función de sus vecinos compartidos. 
+    
+    </p>
+    
 
-
+    <h2><strong><center>Su funcionamiento esta regido por la siguiente formula:</center></strong></h2>
+    
+    <div class=" col-12" align="center"><img src="img/resource-allocation.png" width="400"  height="200"></div>
+    <p class="bg-danger"> 
+    Donde N(u) es el conjunto de nodos adyacentes a u. <br>Dentro de los resultados que podemos obtener con este algoritmo se tiene que 
+    los valores 0 indican que los nodos que son objeto de estudio no están cerca, mientras que en el caso de valores altos
+     indican que los nodos están más cerc
+    </p>
 
    
     <div class="callout">
